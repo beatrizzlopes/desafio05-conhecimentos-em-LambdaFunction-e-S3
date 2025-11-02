@@ -43,13 +43,13 @@ Características:
 
 ###### Como funciona a automação S3 + Lambda
 
-1 Um evento acontece no S3, como:
+1- Um evento acontece no S3, como:
 
 Um novo arquivo é enviado.
 
 Um arquivo é deletado.
 
-2 Esse evento dispara uma função Lambda, que pode:
+2- Esse evento dispara uma função Lambda, que pode:
 
 Redimensionar imagens automaticamente
 
@@ -66,13 +66,13 @@ Projeto: Upload de Arquivos com Processamento e Registro no DynamoDB
 
 Fluxo do Projeto:
 
-1.0 usuário faz upload de um arquivo (ex: CSV ou JSON) em um bucket S3.
+1. O usuário faz upload de um arquivo (ex: CSV ou JSON) em um bucket S3.
 
-2.Um evento no S3 dispara uma Lambda Function escrita em Python.
+2. Um evento no S3 dispara uma Lambda Function escrita em Python.
 
-3.A Lambda processa o conteúdo do arquivo (ex: extrai informações) e gravar esses dados em uma tabela no DynamoDB.
+3. A Lambda processa o conteúdo do arquivo (ex: extrai informações) e gravar esses dados em uma tabela no DynamoDB.
 
-4.Outra função Lambda irá consultar a tabela e expor os dados por meio de uma API Gateway.
+4. Outra função Lambda irá consultar a tabela e expor os dados por meio de uma API Gateway.
 
 ![Imagem](https://github.com/beatrizzlopes/desafio05-conhecimentos-em-LambdaFunction-e-S3/blob/f48ae596e1bd77fcd7a09f88504053909894efad/Imagem/IMG-20251101-WA0192.jpg)
 
@@ -85,9 +85,7 @@ Principais características
 
 1. Execução local – roda em seu computador via Docker.
 
-
 2. Integração com ferramentas AWS – você pode usar AWS CLI, SDKs ou Terraform com o LocalStack.
-
 
 3. Testes e desenvolvimento mais rápidos – não precisa subir recursos reais na nuvem.
 
