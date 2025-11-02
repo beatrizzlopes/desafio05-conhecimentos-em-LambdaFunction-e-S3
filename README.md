@@ -43,13 +43,13 @@ Características:
 
 ###### Como funciona a automação S3 + Lambda
 
-1. Um evento acontece no S3, como:
+1 Um evento acontece no S3, como:
 
 Um novo arquivo é enviado.
 
 Um arquivo é deletado.
 
-2. Esse evento dispara uma função Lambda, que pode:
+2 Esse evento dispara uma função Lambda, que pode:
 
 Redimensionar imagens automaticamente
 
