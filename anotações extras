@@ -1,1 +1,11 @@
+# Anotações extras
 
+## Vantagens LocalStack
+
+Reduz custos – não paga por recursos AWS durante testes.
+
+Mais rápido – não depende de upload/download para a nuvem.
+
+Seguro – você pode testar sem arriscar dados ou serviços reais.
+
+Integração completa – funciona com CLI, SDKs, Terraform e frameworks serverless.
