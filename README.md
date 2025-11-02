@@ -93,6 +93,8 @@ Principais características
 
 # Insights
 
+Durante esse processo de aprendizagem, percebi como o AWS Lambda permite automatizar tarefas e escalar funções de forma eficiente, como o S3 facilita o armazenamento e processamento de arquivos, e como o LocalStack possibilita testar serviços AWS localmente sem custos, tornando o desenvolvimento mais seguro e ágil.
+
 # Autora
 
 Beatriz Lopes
