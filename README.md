@@ -74,7 +74,7 @@ Fluxo do Projeto:
 
 4.Outra função Lambda irá consultar a tabela e expor os dados por meio de uma API Gateway.
 
-....
+![Imagem](https://github.com/beatrizzlopes/desafio05-conhecimentos-em-LambdaFunction-e-S3/blob/f48ae596e1bd77fcd7a09f88504053909894efad/Imagem/IMG-20251101-WA0192.jpg)
 
 # LocalStack 
 
