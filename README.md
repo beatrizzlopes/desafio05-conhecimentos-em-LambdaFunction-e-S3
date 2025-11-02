@@ -16,7 +16,7 @@ anotações extras: Contém anotações.
 
 # Anotações
 
-###### Amazon S3
+##### Amazon S3
 
 O Amazon S3 (Simple Storage Service) é um serviço de armazenamento de objetos na nuvem da AWS. Ele permite guardar arquivos de qualquer tipo (imagens, vídeos, documentos, backups, logs) de forma segura, escalável e durável.
 
@@ -29,7 +29,7 @@ Características:
 - Suporta eventos (ex.: upload de arquivo, exclusão) que podem disparar ações automaticamente.
 
 
-###### AWS Lambda
+##### AWS Lambda
 
 O AWS Lambda é um serviço de computação serverless da Amazon. Ele permite que você execute código sem precisar gerenciar servidores. Ou seja, você só precisa escrever a função e o Lambda cuida do resto: provisionamento, escalabilidade e execução.
 
@@ -41,7 +41,7 @@ Características:
 
 - Pode ser usado para processar dados, enviar notificações, integrar sistemas, etc.
 
-###### Como funciona a automação S3 + Lambda
+##### Como funciona a automação S3 + Lambda
 
 1- Um evento acontece no S3, como:
 
