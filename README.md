@@ -60,6 +60,19 @@ Processar logs e enviar dados para banco
 Notificar usuários via SNS ou e-mail
 
 
+# HandsOn
+
+Projeto: Upload de Arquivos com Processamento e Registro no DynamoDB
+
+Fluxo do Projeto:
+
+1.0 usuário faz upload de um arquivo (ex: CSV ou JSON) em um bucket S3.
+
+2.Um evento no S3 dispara uma Lambda Function escrita em Python.
+
+3.A Lambda processa o conteúdo do arquivo (ex: extrai informações) e gravar esses dados em uma tabela no DynamoDB.
+
+4.Outra função Lambda irá consultar a tabela e expor os dados por meio de uma API Gateway.
 
 
 
