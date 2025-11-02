@@ -74,9 +74,22 @@ Fluxo do Projeto:
 
 4.Outra função Lambda irá consultar a tabela e expor os dados por meio de uma API Gateway.
 
+....
+
+# LocalStack 
+
+O LocalStack é uma plataforma que simula os serviços da AWS localmente no seu computador. Ele permite desenvolver e testar aplicações que usam AWS sem precisar acessar a nuvem de verdade, o que ajuda a economizar tempo e dinheiro.
 
 
+Principais características
 
+1. Execução local – roda em seu computador via Docker.
+
+
+2. Integração com ferramentas AWS – você pode usar AWS CLI, SDKs ou Terraform com o LocalStack.
+
+
+3. Testes e desenvolvimento mais rápidos – não precisa subir recursos reais na nuvem.
 
 # Insights
 
